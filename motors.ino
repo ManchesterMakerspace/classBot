@@ -80,9 +80,3 @@ int speedPower(char mode){
   return botPower;
 }
 
-char offsetPower(char mode){
-  static char botOffset = DEFAULT_OFFSET; // defualt to maximum power
-  if (mode == OFFSET_MONITOR){ return botOffset;}
-  botOffset = mode;
-}
-

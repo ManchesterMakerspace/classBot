@@ -8,14 +8,10 @@ JS_Timer timer = JS_Timer(); // delay can be used, but a timer is better for mul
 // Set up constant numbers
 #define LED            13    // for debuging durring run time (pin 13)
 #define MONITOR        0     // param for a polymorphic fuction that has a monitor mode
-#define TRIGGER        1     // truth parameter = true || high
-#define RESETKEY       0     // < 256: change to reset persistent calibration options
+#define TRIGGER        1     // truth parameter = true || highs
 #define OFFSET         13    // hard coded offset of the motors set this proper to drive straight
-#define BTNEVENTS      4     // number of events zumo button can trigger
 #define TEST_DURRATION 500   // durration in milliseconds
 #define MAX_POWER      255   // max drive speed
-#define DEFAULT_OFFSET 6     // Default left right motor power offset
-#define OFFSET_MONITOR 255   // if you have to offset by 255 theres something wrong
 
 // ----- Main Arduino functions ---------
 
